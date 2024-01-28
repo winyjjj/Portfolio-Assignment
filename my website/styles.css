@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: large;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('background\ image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header {
+    background-color: white;
+    color: rgb(44, 39, 121);
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+    margin: 0;
+}
+h2 {
+    font-size:xx-large;
+    margin: auto;
+    color:black;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.hero {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color:black;
+    text-align: center;
+    padding: 100px 0;
+    font-size: xx-large;
+    font-style: italic;
+    font-display: swap;
+}
+
+.gallery {
+    background-color:transparent;
+    padding: 80px 0;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 30%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.contact {
+    padding: 80px 0;
+}
+About us{
+    color:yellow;
+    font-size: xx-large;
+    font-style: oblique;
+
+}
+form {
+    display: grid;
+    grid-gap: 20px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-tags a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+}
